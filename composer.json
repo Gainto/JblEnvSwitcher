@@ -1,0 +1,54 @@
+{
+  "name": "jbl/env-switcher-shopware6",
+  "description": "A Simple Plug-In which allows the shop administration to switch between dev <-> prod mode without touching .env file.",
+  "type": "shopware-platform-plugin",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Jeffry Block",
+      "homepage": "https://www.jeffblock.de"
+    }
+  ],
+  "require": {
+    "shopware/core": "~6.5.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "~3.0",
+    "phpstan/phpstan": "^0.12.18"
+  },
+  "scripts": {
+    "cs-fixer": "php-cs-fixer fix",
+    "phpstan": "phpstan analyse"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "JblEnvSwitcher\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "JblEnvSwitcher\\JblEnvSwitcher",
+    "copyright": "(c) by Jeffry Block",
+    "label": {
+      "de-DE": "Schnelles wechseln der Umgebung",
+      "en-GB": "Quick environment switcher"
+    },
+    "description": {
+      "de-DE": "Einfaches Plug-In welches es dem Administrator erlaubt, schnell zwischen dev <-> live modus zu wechseln, ohne die .env Datei editieren zu müssen.",
+      "en-GB": "A Simple Plug-In which allows the shop administration to switch between dev <-> prod mode without touching .env file."
+    },
+    "manufacturerLink": {
+      "de-DE": "https://github.com/gainto",
+      "en-GB": "https://github.com/gainto"
+    },
+    "supportLink": {
+      "de-DE": "https://github.com/gainto",
+      "en-GB": "https://github.com/gainto"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "symfony/runtime": true
+    }
+  }
+}

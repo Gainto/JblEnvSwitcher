@@ -1,0 +1,11 @@
+{% block sw_version_info_text %}
+    {% parent() %}
+    <span v-if="currentEnv" class="env-switcher">
+        (
+        <a href="#" :class="isProd ? 'active-env' : 'inactive-env'" @click.prevent="switchEnv('prod')">Live</a>
+        |
+        <a href="#" :class="isDev ? 'active-env' : 'inactive-env'"  @click.prevent="switchEnv('dev')">Dev</a>
+        )
+    </span>
+
+{% endblock %}
