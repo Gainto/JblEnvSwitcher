@@ -1,6 +1,6 @@
 {
   "name": "jbl/env-switcher-shopware6",
-  "description": "A Simple Plug-In which allows the shop administration to switch between dev <-> prod mode without touching .env file.",
+  "description": "A Simple Plug-In which allows the shop administrator to switch between dev <-> prod mode without touching .env file.",
   "type": "shopware-platform-plugin",
   "version": "1.0.0",
   "authors": [
@@ -35,7 +35,7 @@
     },
     "description": {
       "de-DE": "Einfaches Plug-In welches es dem Administrator erlaubt, schnell zwischen dev <-> live modus zu wechseln, ohne die .env Datei editieren zu müssen.",
-      "en-GB": "A Simple Plug-In which allows the shop administration to switch between dev <-> prod mode without touching .env file."
+      "en-GB": "A Simple Plug-In which allows the shop administrator to switch between dev <-> prod mode without touching .env file."
     },
     "manufacturerLink": {
       "de-DE": "https://github.com/gainto",

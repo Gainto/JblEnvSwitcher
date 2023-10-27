@@ -4,7 +4,7 @@
 [![PHP Version](https://img.shields.io/badge/php-%5E8.0-8892BF.svg?style=flat)](http://www.php.net)
 [![Shopware Version](https://img.shields.io/badge/shopware-%5E6.5.0-8892BF.svg?style=flat)](http://www.shopware.com)
 
-A Simple Plug-In which allows the shop administration to switch between dev <-> prod mode without touching .env file.  
+A Simple Plug-In which allows the shop administrator to switch between dev <-> prod mode without touching .env file.  
 The Plug-In adds a switch to the administration which internally writes into the .env file
 
 **This Plug-In is not meant to be used for production environments but only for dev environments and/or developers.**
